@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>flappy-bird</title>
+	<link rel="stylesheet" href="CSS/reset.css">
+	<link rel="stylesheet" href="CSS/index.css">
+	<link rel="icon" href="bird.ico">
+</head>
+
+<body>
+	<div id="game">
+		<!-- 小鸟div -->
+		<div class="bird"></div>
+
+		<!-- 开始游戏按钮 -->
+		<div class="start start-white">开始游戏</div>
+
+		<!-- 最上层分数 -->
+		<div class="score">0</div>
+
+		<!-- mask 蒙层 -->
+		<div class="mask"></div>
+
+		<!-- 游戏结束box -->
+		<div class="end">
+			<div class="over">Game Over</div>
+			<div class="results">Your Results</div>
+			<div class="final-score">0</div>
+			<ul class="rank-list">
+				<!-- <li class="rank-item">
+					<span class="rank-degree first">1</span>
+					<span class="rank-score">5</span>
+					<span class="rank-time">2020.8.16 20:20:20</span>
+				</li>
+				<li class="rank-item">
+					<span class="rank-degree second">2</span>
+					<span class="rank-score">5</span>
+					<span class="rank-time">2020.8.16 20:20:20</span>
+				</li>
+				<li class="rank-item">
+					<span class="rank-degree third">3</span>
+					<span class="rank-score">5</span>
+					<span class="rank-time">2020.8.16 20:20:20</span>
+				</li>
+				<li class="rank-item">
+					<span class="rank-degree">1</span>
+					<span class="rank-score">5</span>
+					<span class="rank-time">2020.8.16 20:20:20</span>
+				</li> -->
+			</ul>
+			<div class="restart">重新开始</div>
+		</div>
+	</div>
+	<script src="JS/utils.js"></script>
+	<script src="JS/index.js"></script>
+
+</body>
+
+</html>
